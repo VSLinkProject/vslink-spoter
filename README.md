@@ -72,9 +72,25 @@ tools/                 trích keypoint từ video
 
 ## Trích dẫn
 
-Vui lòng trích dẫn bộ dữ liệu VSL400 theo mẫu trên trang Zenodo, và SPOTER:
+Nếu sử dụng repo này, vui lòng trích dẫn bộ dữ liệu VSL400 và SPOTER:
+
+> Nguyen Quoc, T., Pham Dang, K., Truong Duy, V., Truong Hoang, V., Bilik, S., Sindelar, M.,
+> Stefansky, J., Łysiak, A., Martinek, R., & Bilik, P. (2026). *A Multi-view Dataset for
+> Vietnamese Word-Level Sign Language Recognition* [Data set]. Zenodo.
+> https://doi.org/10.5281/zenodo.17943574
 
 ```bibtex
+@dataset{nguyenquoc2026vsl400,
+  author    = {Nguyen Quoc, T. and Pham Dang, K. and Truong Duy, V. and Truong Hoang, V. and
+               Bilik, S. and Sindelar, M. and Stefansky, J. and {\L}ysiak, A. and
+               Martinek, R. and Bilik, P.},
+  title     = {A Multi-view Dataset for Vietnamese Word-Level Sign Language Recognition},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.17943574},
+  url       = {https://doi.org/10.5281/zenodo.17943574}
+}
+
 @inproceedings{bohacek2022spoter,
   title     = {Sign Pose-based Transformer for Word-level Sign Language Recognition},
   author    = {Boh{\'a}{\v{c}}ek, Maty{\'a}{\v{s}} and Hr{\'u}z, Marek},
